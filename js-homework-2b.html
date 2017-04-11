@@ -3,10 +3,14 @@ function basketballScores(homeScore, awayScore){
   if (homeScore > awayScore) {
     console.log("The home team won.");
   }
+  else if (homeScore == awayScore) {
+    console.log("The game tied.");
+  }
   else {
     console.log("The away team won.");
   }
 }
 basketballScores(42, 20);
 basketballScores(25, 36);
+basketballScores(22,22);
 </script>
